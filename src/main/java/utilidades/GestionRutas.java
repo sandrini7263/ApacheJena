@@ -1,0 +1,22 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package utilidades;
+
+/**
+ *
+ * @author Carlos Sánchez López
+ */
+public class GestionRutas {
+
+    public GestionRutas() {
+    }
+
+    public String getActualPath() {
+        // Recuperar directorio usuario
+        return System.getProperty("user.dir") + "//UploadApacheJena//";
+    }
+}
+
